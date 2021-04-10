@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-Aug-2020, 23:52:37
+    Author     : agyar
+*/
+
+.labelBig {
+    -fx-font-family: Roboto;
+    -fx-font-size: 30px;
+    -fx-text-fill: #000000;
+}
+
+.labelLogin {
+    -fx-font-family: Roboto;
+    -fx-font-size: 12px;
+    -fx-text-fill: #000000;
+}
+
+.labelError {
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FF0000;
+}
+
+.labelStudentInfo {
+    -fx-font-family: Roboto;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.buttonLogin {
+    -fx-background-radius: 20;
+    -fx-background-color: #30BDF3;
+    -fx-font-family: Roboto;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.buttonLogin:hover {
+    -fx-background-color: #207EA2;
+}
+
+.buttonAddImage {
+    -fx-background-radius: 20;
+    -fx-background-color: #30BDF3;
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.buttonAddImage:hover {
+    -fx-background-color: #207EA2;
+}
+
+.textField {
+    -fx-background-color: #EFF3F6;
+    -fx-border-color: #30BDF3;
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+}
+
+.textFieldStudentInfo {
+    -fx-background-color: #EFF3F6;
+    -fx-border-color: #30BDF3;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.comboBox {
+    -fx-background-color: #EFF3F6;
+    -fx-border-color: #30BDF3;
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+}
+
+.radioButton {
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+}
+
+.radioButton .radio{
+    -fx-border-width: 1px;
+    -fx-border-color: #30BDF3;
+    -fx-background-color: #FFFFFF;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+}
+
+.radioButton .radio:selected{
+    -fx-background-color: #30BDF3;
+}
+
+.radioButton .dot{
+    -fx-mark-highlight-color: #30BDF3;
+    -fx-mark-color: #30BDF3;
+}
+
+.checkBox {
+    -fx-font-family: Roboto;
+    -fx-font-size: 14px;
+}
+
+.checkBox:selected .mark {
+    -fx-background-color: #FFFFFF;
+}
+
+.checkBox:selected .box {
+    -fx-background-color: #30BDF3;
+}
+
+
